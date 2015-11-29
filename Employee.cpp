@@ -52,9 +52,9 @@ public:
 
 int main(){
 	Employee e[10];
-	int i, choice, count, num, empid;
+	int i,f, choice, count, num, empid;
 	count = 0;
-	while(1){
+	while(f){
 		cout << "choice: \n1. Enter Employee details \n2.Display all Employee details \n3. Search for Employee details \n4. Display all the Employee Increment \n5. Search for an Employee Increment \n6. Exit";
 		cout << "Enter the choice : ";
 		cin >> choice;
@@ -96,7 +96,7 @@ int main(){
 			break;
 
 			case 6:
-			exit;
+			f=0;
 			break;
 		}
 	}
