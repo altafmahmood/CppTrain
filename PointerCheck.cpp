@@ -28,5 +28,6 @@
  	StringPlay sp;
  	char str="Altaf";
  	sp.setName(str);
+ 	sp.display()
  	return 0;
  }
