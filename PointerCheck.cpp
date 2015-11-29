@@ -2,6 +2,7 @@
  * Date			: 22 November, 2015
  * Time			: 13:24
  * Description	: A program to learn about string and to play with pointers
+ * Adding Unnecessary lines
  */
 
 #include <iostream>
